@@ -1,0 +1,14 @@
+{
+  "name": "ballet",
+  "version": "0.1.0",
+  "description": "Build and run Ballet playbooks, agents and data tables from Codex",
+  "author": { "name": "Ballet" },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Ballet",
+    "shortDescription": "Build and run Ballet playbooks, agents and data tables",
+    "capabilities": ["Read", "Write"]
+  },
+  "onboardingSkill": "./skills/ballet/SKILL.md"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ballet-plugins",
+  "owner": { "name": "Ballet" },
+  "metadata": { "description": "Official Ballet plugins for Cursor" },
+  "plugins": [
+    { "name": "ballet", "source": "./ballet", "description": "Build and run Ballet playbooks, agents and data tables from Cursor" }
+  ]
+}

@@ -38,7 +38,7 @@ codex plugin marketplace add brainfish-ai/ballet-agent-plugins
 **Any MCP client** (no skills) — add to your MCP config:
 
 ```json
-{ "mcpServers": { "ballet": { "url": "https://api.ballet.dev/mcp" } } }
+{ "mcpServers": { "ballet": { "type": "http", "url": "https://api.ballet.dev/mcp" } } }
 ```
 
 The first tool call opens a browser sign-in (OAuth 2.1 + PKCE). No API keys to paste.

@@ -1,8 +1,22 @@
-# Ballet agent plugins
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/ballet-logo-dark.svg">
+    <img src="./assets/ballet-logo-light.svg" alt="Ballet" height="40">
+  </picture>
+</p>
 
-Build with [Ballet](https://app.ballet.dev) in your AI coding agent — skills plus the Ballet MCP
-server for **Claude Code**, **Cursor** and **Codex**. Create playbooks, agents, tools and data
-tables, and debug runs, from natural language.
+<p align="center">
+  <strong>Build with Ballet in your AI coding agent</strong> — skills and the Ballet MCP server,
+  for Claude Code, Codex, and Cursor.
+</p>
+
+<p align="center">
+  <a href="https://app.ballet.dev">App</a> · <a href="./CONTRIBUTING.md">Contributing</a>
+</p>
+
+Ballet is an agent operations platform. Create playbooks, agents, tools and data tables, and
+debug runs, from natural language. This repo is the plugin marketplace for `ballet`: one plugin
+source, three coding-agent targets, sharing one set of skills and one MCP server.
 
 ## Install
 
